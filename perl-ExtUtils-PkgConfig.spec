@@ -8,12 +8,12 @@
 Summary:	ExtUtils::PkgConfig - simplistic interface to pkg-config
 Summary(pl):	ExtUtils::PkgConfig - prosty interfejs do pkg-config
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.02
+Version:	1.03
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6c92439d52b15b33320b19778b3217ca
+# Source0-md5:	cf148e0573ca76da90a477f149a84d6b
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	pkgconfig
