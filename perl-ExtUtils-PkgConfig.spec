@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	ExtUtils
-%define	pnam	PkgConfig
+%define		pdir	ExtUtils
+%define		pnam	PkgConfig
 Summary:	ExtUtils::PkgConfig - simplistic interface to pkg-config
 Summary(pl):	ExtUtils::PkgConfig - prosty interfejs do pkg-config
 Name:		perl-ExtUtils-PkgConfig
