@@ -16,8 +16,9 @@ Source0:	http://dl.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c32c65d8be24cfb7ecb9845a7a30421b
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	perl-devel >= 5.8.0
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,8 +36,7 @@ pkg-config.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 
-%{__make} \
-	OPTIMIZE="%{rpmcflags}"
+%{__make}
 
 %{!?_without_tests:%{__make} test}
 
