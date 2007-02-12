@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	PkgConfig
 Summary:	ExtUtils::PkgConfig - simplistic interface to pkg-config
-Summary(pl):	ExtUtils::PkgConfig - prosty interfejs do pkg-config
+Summary(pl.UTF-8):   ExtUtils::PkgConfig - prosty interfejs do pkg-config
 Name:		perl-ExtUtils-PkgConfig
 Version:	1.07
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ExtUtils::PkgConfig is a very simplistic interface to pkg-config
 utility.
 
-%description -l pl
-ExtUtils::PkgConfig jest bardzo prostym interfejsem do narzêdzia
+%description -l pl.UTF-8
+ExtUtils::PkgConfig jest bardzo prostym interfejsem do narzÄ™dzia
 pkg-config.
 
 %prep
