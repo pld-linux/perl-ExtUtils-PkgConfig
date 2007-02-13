@@ -6,7 +6,7 @@
 %define		pdir	ExtUtils
 %define		pnam	PkgConfig
 Summary:	ExtUtils::PkgConfig - simplistic interface to pkg-config
-Summary(pl.UTF-8):   ExtUtils::PkgConfig - prosty interfejs do pkg-config
+Summary(pl.UTF-8):	ExtUtils::PkgConfig - prosty interfejs do pkg-config
 Name:		perl-ExtUtils-PkgConfig
 Version:	1.07
 Release:	1
