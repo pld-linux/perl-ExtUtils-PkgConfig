@@ -8,12 +8,12 @@
 Summary:	ExtUtils::PkgConfig - simplistic interface to pkg-config
 Summary(pl.UTF-8):	ExtUtils::PkgConfig - prosty interfejs do pkg-config
 Name:		perl-ExtUtils-PkgConfig
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://dl.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8fc5c0b30cfda2048ec87ae418cc3508
+Source0:	http://downloads.sourceforge.net/gtk2-perl/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	cc41813a491e15e0d46eef3233786369
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	pkgconfig
